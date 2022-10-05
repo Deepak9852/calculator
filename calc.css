@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-image: url(Images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    position: relative;
+   height: 500px;
+   width: 300px;
+   background-color: rgb(62, 39, 16);
+   margin: auto;
+   margin-top:100px;
+   display: block;
+   opacity: 1;
+   border-radius: 8%;
+   border:4px solid #000;
+
+
+}
+#screen{
+    background-color: #f0f5f5;
+    height: 150px;
+    width: 286px;
+    border-radius: 10%;
+    font-size: 30px;
+    border: 5px groove rgb(85, 21, 125);
+    direction:rtl; 
+    
+}
+screen:hover{
+    pointer-events: none;
+}
+.button{
+    color: aliceblue;
+    line-height: 60px;
+    
+}
+.btn{
+    font-size: 30px;
+    margin: 12px 10px;
+    height: 40px;
+    width: 54px;
+    border-radius: 31%
+}
+#doublezero{
+    font-size: 25px;
+}
+#clear,#divide,#backspace,#percent,#multiply,#sub,#add,#equal,#subtract{
+    font-size: 25px;
+    background-color: rgb(234, 116, 116);
+}
+
