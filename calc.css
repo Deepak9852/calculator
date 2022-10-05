@@ -27,7 +27,8 @@ body{
     border-radius: 10%;
     font-size: 30px;
     border: 5px groove rgb(85, 21, 125);
-    direction:rtl; 
+    /* direction:rtl;  */
+    text-align: right;
     
 }
 screen:hover{
